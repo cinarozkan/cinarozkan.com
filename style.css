@@ -13,7 +13,7 @@ body {
     place-items: center;
     justify-content: center;
     align-items: flex-start;
-    }
+}
 .infoYazilar {
     margin-top: 25vh;
     display: flex;
@@ -33,3 +33,75 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
+/* status button styles begin */
+/* From Uiverse.io by Spacious74 */ 
+.button {
+    cursor: pointer;
+    font-size: 0.8rem; /* Smaller font size */
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
+    border-radius: 10px; /* Smaller border radius */
+    border: none; /* No border */
+    padding: 1px; /* Reduced padding */
+    background: radial-gradient(circle 50px at 80% -10%, #ff0000, #181b1b); /* Gradient background */
+    position: absolute; /* Positioned in the top-right corner */
+    top: 20px; /* Margin from the top */
+    right: 20px; /* Margin from the right */
+    z-index: 10; /* Ensure it stays on top */
+}
+
+.button::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute; /* Positioned relative to the button */
+    width: 40%; /* Smaller width */
+    height: 40%; /* Smaller height */
+    border-radius: 100px; /* Rounded pseudo-element */
+    top: 0; /* Positioned at the top */
+    right: 0; /* Positioned at the right */
+    box-shadow: 0 0 10px #ff00008c; /* Reduced glow effect */
+    z-index: -1; /* Behind the button */
+}
+
+.blob1 {
+    position: absolute; /* Positioned relative to the button */
+    width: 40px; /* Smaller width */
+    height: 80%; /* Adjusted height */
+    border-radius: 10px; /* Smaller border radius */
+    bottom: 0; /* Positioned at the bottom */
+    left: 0; /* Positioned at the left */
+    background: radial-gradient(
+        circle 40px at 0% 100%, 
+        #ff3f3f, 
+        #ff000080, 
+        transparent
+    ); /* Gradient background for the blob */
+    box-shadow: -5px 5px 20px #ff000097; /* Reduced shadow effect */
+}
+
+.inner {
+    padding: 10px 20px; /* Reduced padding */
+    border-radius: 10px; /* Smaller border radius */
+    color: #fff;
+    z-index: 3;
+    position: relative;
+    background: radial-gradient(circle 60px at 80% -50%, #777777, #0f1111); /* Gradient background */
+    font-size: 0.7rem; /* Smaller text size */
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
+}
+
+.inner::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 10px; /* Smaller border radius */
+    background: radial-gradient(
+      circle 60px at 0% 100%,
+      #ff00001a,
+      #ff000011,
+      transparent
+    );
+    position: absolute;
+}
+/* status button styles end */
