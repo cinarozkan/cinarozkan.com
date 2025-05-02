@@ -7,4 +7,4 @@ I'm self hosting this site from my Raspberry Pi 4 Model B home server with techn
 
 1. 🌐Clone this repository:
    ```bash
-   git clone https://github.com/cinarozkan/personal-website.git
+   git clone https://github.com/cinarozkan/cinarozkan.com.git
