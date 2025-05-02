@@ -1,4 +1,4 @@
-# Cinar Ozkan - Personal Website - GPL 3.0 🧑‍💻
+# Çınar Özkan - Personal Website - GPL 3.0 🧑‍💻
 
 This repository includes all the source code and the other files from my personal website: **[cinarozkan.com](https://cinarozkan.com)**
 I'm self hosting this site from my Raspberry Pi 4 Model B home server with technologies like NGINX and Cloudflare Tunnels.
