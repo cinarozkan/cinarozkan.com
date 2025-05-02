@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(180deg,
+    rgb(16, 16, 16) 25%,
+    rgb(59, 0, 0) 70%,
+    hsla(0, 100%, 38%, 1) 175%);
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    }
+.infoYazilar {
+    color: white; 
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.randomYazi { 
+    margin: 0;
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+}
+.Status {
+    margin: 0;
+    color: rgb(192, 192, 192); 
+    font-size: 20px;
+    text-align: center;
+}
+  
