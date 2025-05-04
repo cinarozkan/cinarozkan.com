@@ -1,8 +1,6 @@
 body {
-    background: linear-gradient(180deg,
-    rgb(16, 16, 16) 25%,
-    rgb(59, 0, 0) 70%,
-    hsla(0, 100%, 38%, 1) 175%);
+    background: linear-gradient(to bottom, #101010 25%, #3b0000 70%, #b00000 175%);
+
 
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -14,26 +12,89 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
+ 
+/* Underlined Text */
+.Underline {
+    text-decoration: underline;
+}
 
+/* Ttile + info text */
 .infoYazilar {
     color: white; 
     margin-top: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 70px;
 }
 
+/* Random Title Text */
 .randomYazi { 
     margin: 0;
     color: white; 
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
 }
 
-.Status {
+/* Estimated Time Text */
+.tahminiZamanMetin {
     margin: 0;
-    color: rgb(192, 192, 192); 
-    font-size: 20px;
+    color: rgb(195, 195, 195); 
+    font-size: 22px;
+    text-align: center;
+}
+
+/* by Çınar Özkan - Github - Status Page - GPL-3.0 */
+.altMetin {
+    color: rgb(120, 120, 120);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 16px;
+}
+
+.altMetin a {
+    color: rgb(120, 120, 120);
+}
+
+/* Am I Working on the Website Right Now? */
+.LiveWork {
+    margin: -65px;
+    color: rgb(195, 195, 195); 
+    font-size: 22px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .randomYazi {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .tahminiZamanMetin, .LiveWork {
+        font-size: 12px;
+    }
+
+    .altMetin {
+        font-size: 8px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.randomYazi, .LiveWork, .tahminiZamanMetin {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    max-width: 100%;
+}
+
+.lastWorkTime {
+    margin: 0px;
+    color: rgb(195, 195, 195); 
+    font-size: 22px;
     text-align: center;
 }
