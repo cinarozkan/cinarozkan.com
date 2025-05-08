@@ -6,7 +6,7 @@ I'm self hosting this site from my Raspberry Pi 4 Model B home server with techn
 🔴Find the status page for my website here: **[status.cinarozkan.com](https://status.cinarozkan.com)**
 
 ---
-
+### Example screenshot from **[cinarozkan.com](https://cinarozkan.com)**:
 ![image](https://github.com/user-attachments/assets/f9891d22-3eb4-4e49-8f85-0a900cc8ef16)
 
 ---
