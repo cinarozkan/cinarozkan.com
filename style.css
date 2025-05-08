@@ -53,6 +53,9 @@ body {
     transform: translateX(-50%);
     text-align: center;
     font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .altMetin a {
@@ -67,13 +70,29 @@ body {
     text-align: center;
 }
 
+.randomYazi, .LiveWork, .tahminiZamanMetin {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* The Last Time I Was Working: */
+.lastWorkTime {
+    margin: 0px;
+    color: rgb(195, 195, 195); 
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Always put on the buttom. */
 @media (max-width: 600px) {
     .randomYazi {
         font-size: 28px;
         text-align: center;
     }
 
-    .tahminiZamanMetin, .LiveWork {
+    .tahminiZamanMetin, .LiveWork, .lastWorkTime {
         font-size: 12px;
     }
 
@@ -83,18 +102,4 @@ body {
         align-items: center;
         text-align: center;
     }
-}
-
-.randomYazi, .LiveWork, .tahminiZamanMetin {
-    word-break: break-word;
-    overflow-wrap: break-word;
-    text-align: center;
-    max-width: 100%;
-}
-
-.lastWorkTime {
-    margin: 0px;
-    color: rgb(195, 195, 195); 
-    font-size: 22px;
-    text-align: center;
 }
