@@ -14,12 +14,12 @@ body {
 }
  
 /* Underlined Text */
-.Underline {
+.underline {
     text-decoration: underline;
 }
 
 /* Ttile + info text */
-.infoYazilar {
+.infoText {
     color: white; 
     margin-top: 25vh;
     display: flex;
@@ -29,7 +29,7 @@ body {
 }
 
 /* Random Title Text */
-.randomYazi { 
+.randomTitle { 
     margin: 0;
     color: white; 
     font-size: 42px;
@@ -37,7 +37,7 @@ body {
 }
 
 /* Estimated Time Text */
-.tahminiZamanMetin {
+.estimatedFinishTime {
     margin: 0;
     color: rgb(195, 195, 195); 
     font-size: 22px;
@@ -45,7 +45,7 @@ body {
 }
 
 /* by Çınar Özkan - Github - Status Page - GPL-3.0 */
-.altMetin {
+.subInfoText {
     color: rgb(120, 120, 120);
     position: absolute;
     bottom: 0px;
@@ -58,19 +58,19 @@ body {
     text-overflow: ellipsis;
 }
 
-.altMetin a {
+.subInfoText a {
     color: rgb(120, 120, 120);
 }
 
 /* Am I Working on the Website Right Now? */
-.LiveWork {
+.liveWork {
     margin: -65px;
     color: rgb(195, 195, 195); 
     font-size: 22px;
     text-align: center;
 }
 
-.randomYazi, .LiveWork, .tahminiZamanMetin {
+.randomTitle, .liveWork, .estimatedFinishTime {
     word-break: break-word;
     overflow-wrap: break-word;
     text-align: center;
@@ -87,19 +87,23 @@ body {
 
 /* Always put on the buttom. */
 @media (max-width: 600px) {
-    .randomYazi {
+    .randomTitle {
         font-size: 28px;
         text-align: center;
     }
 
-    .tahminiZamanMetin, .LiveWork, .lastWorkTime {
+    .estimatedFinishTime, .liveWork, .lastWorkTime {
         font-size: 12px;
     }
 
-    .altMetin {
+    .subInfoText {
         font-size: 8px;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+}
+
+.hoverWord:hover {
+    color: rgb(160, 160, 160);
 }
