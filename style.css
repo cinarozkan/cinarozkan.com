@@ -45,7 +45,7 @@ body {
 }
 
 /* by Çınar Özkan - Github - Status Page - GPL-3.0 */
-.subInfoText {
+.subInfoText{
     color: rgb(120, 120, 120);
     position: absolute;
     bottom: 0px;
@@ -60,6 +60,11 @@ body {
 
 .subInfoText a {
     color: rgb(120, 120, 120);
+    transition: color 0.15s ease;
+}
+
+.subInfoText a:hover {
+    color: rgb(160, 160, 160);
 }
 
 /* Am I Working on the Website Right Now? */
@@ -83,10 +88,6 @@ body {
     color: rgb(195, 195, 195); 
     font-size: 22px;
     text-align: center;
-}
-
-.hoverWord:hover {
-    color: rgb(160, 160, 160);
 }
 
 /* Always put on the buttom. */
